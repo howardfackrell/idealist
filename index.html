@@ -11,24 +11,18 @@
 <body class="container-fluid">
   <div class="col-xs-12 col-sm-8 col-sm-offset-4 col-md-6 col-md-offset-6 col-lg-4 col-lg-offset-7 content">
     <div class="row-fluid header">
-    	<textarea class="entryfield" cols="80" >this is text</textarea>
+    	<textarea id="entryfield" class="entryfield" cols="80" placeholder="New Entry"></textarea>
     </div>
 
     <div class="shopping-list">
       <h3 class="title">Shopping list</h3>
       <ul>
-        <li><input type="checkbox" /><p>Milk</p><a class="fa fa-remove"></a></li>
-        <li class="done"><input type="checkbox" /><p>Eggs</p><a class="fa fa-remove"></a></li>
-        <li><input type="checkbox" /><p>Butter</p><a class="fa fa-remove"></a></li>
-        <li class="done"><input type="checkbox" /><p>Bread</p><a class="fa fa-remove"></a></li>
-        <li><input type="checkbox" /><p>World domination</p><a class="fa fa-remove"></a></li>
+        <!-- populated by javascript --> 
       </ul>
 
     </div>
 
   </div>
-
-	
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="javascript/idealist.js"></script>
 </body>

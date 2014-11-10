@@ -9,8 +9,6 @@ $(document).ready(function() {
     	var entryfield = $(".entryfield");
     	var newItem = entryfield.val();
     	entryfield.val('');
-
-        console.log("new item is: " + newItem);
     	var t = $("<li><input type='checkbox' /><p>" + newItem + "</p><a class='fa fa-remove'></a></li>");
     	$(".shopping-list > ul").prepend(t);
     }
@@ -24,4 +22,5 @@ $(document).ready(function() {
       $(this).closest("li").removeClass("done");	
     }
   });
+  
 });
