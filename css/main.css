@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  background: url('../images/DSCN9417_2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Comfortaa', cursive;
+}
+
+.content {
+	background-color: rgba(255, 237, 24, .9);
+	min-height: 900px;
+}
+
+.entryfield {
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-size: 2em;
+	width: 100%;
+}
+
+
+.shopping-list ul {
+	list-style-type: none;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.shopping-list li {
+	display: block;
+	list-style: none;
+	margin: .5em;
+	font-size: 1.5em;
+}
+
+.shopping-list input, button, p {
+	display: inline;
+}
+
+.shopping-list p {
+	margin: 0 0em 0 1em;
+}
+
+.shopping-list button {
+	float: right;
+}
+
+.done {
+	color: #7842FF;
+}
+
+.fa-remove {
+	color: red;
+	float: right;
+}
+
